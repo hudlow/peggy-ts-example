@@ -1,0 +1,5 @@
+#!./node_modules/.bin/tsx
+
+import * as math from "./math.ts";
+
+console.log(math.parse(process.argv[2]));

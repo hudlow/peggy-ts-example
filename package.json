@@ -1,0 +1,13 @@
+{
+  "name": "peggy-ts-example",
+  "type": "module",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "peggy": "github:peggyjs/peggy",
+    "peggy-ts": "github:hudlow/peggy-ts",
+    "tsx": "^4.19.0"
+  },
+  "scripts": {
+    "prepare": "peggy math.peggy --plugin peggy-ts -o ./math.ts"
+  }
+}
