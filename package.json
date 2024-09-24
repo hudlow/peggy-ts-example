@@ -8,6 +8,7 @@
     "tsx": "^4.19.0"
   },
   "scripts": {
-    "prepare": "peggy math.peggy --plugin peggy-ts -o ./math.ts"
+    "prepare": "peggy math.peggy --plugin peggy-ts -o ./math.ts",
+    "clean": "rm -rf node_modules/ ./math.ts"
   }
 }
